@@ -1,0 +1,16 @@
+{
+  "appId": "com.jsi.app",
+  "appName": "JSI App",
+  "webDir": "www",
+  "server": {
+    "url": "http://m.wms.strong-tc.com",
+    "cleartext": true,
+    "allowNavigation": ["*"]
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.keystore",
+      "keystoreAlias": "android"
+    }
+  }
+}

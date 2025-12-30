@@ -1,0 +1,13 @@
+{
+	"appId": "com.jsi.app",
+	"appName": "JSI App",
+	"webDir": "www",
+	"server": {
+		"url": "https://your-server-url.com",
+		"cleartext": true,
+		"allowNavigation": [
+			"*"
+		]
+	},
+	"android": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "jsi-capacitor-app",
+  "version": "1.0.0",
+  "description": "Capacitor Android app loading remote web app",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx cap init",
+    "add:android": "npx cap add android",
+    "sync": "npx cap sync android",
+    "open:android": "npx cap open android"
+  },
+  "keywords": [
+    "capacitor",
+    "android",
+    "webview"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/app": "^6.0.1",
+    "@capacitor/haptics": "^6.0.1",
+    "@capacitor/keyboard": "^6.0.2",
+    "@capacitor/status-bar": "^6.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
