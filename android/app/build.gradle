@@ -10,7 +10,7 @@ android {
     compileSdkVersion 34
 
     defaultConfig {
-        applicationId "com.jsi.app"
+        applicationId "com.strong.mobile.v1"
         minSdkVersion 24
         targetSdkVersion 34
         versionCode 1
@@ -22,6 +22,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
 
