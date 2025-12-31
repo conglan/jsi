@@ -24,7 +24,6 @@ public class MainActivity extends BridgeActivity {
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
         settings.setDatabaseEnabled(true);
-        settings.setAppCacheEnabled(true);
         settings.setAllowFileAccess(true);
         settings.setAllowContentAccess(true);
         settings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
@@ -85,7 +84,7 @@ public class MainActivity extends BridgeActivity {
     }
     
     @Override
-    protected void onResume() {
+    public void onResume() {
         super.onResume();
         WebView webView = getBridge().getWebView();
         if (webView != null) {
