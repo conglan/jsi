@@ -178,7 +178,7 @@ cd jsi
 ```json
 {
   "appId": "com.jsi.app",
-  "appName": "JSI App",
+  "appName": "思榕移动端",
   "webDir": "www",
   "server": {
     "url": "https://your-server-url.com",  // 修改为你的服务器地址

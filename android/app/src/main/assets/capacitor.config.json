@@ -1,9 +1,9 @@
 {
 	"appId": "com.strong.mobile.v1",
-	"appName": "JSI App",
+	"appName": "思榕移动端",
 	"webDir": "www",
 	"server": {
-		"url": "http://m.wms.strong-tc.com",
+		"url": "https://www.baidu.com",
 		"cleartext": true,
 		"allowNavigation": [
 			"*"

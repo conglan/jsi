@@ -62,7 +62,7 @@ git push origin main
    ```json
    {
      "appId": "com.jsi.app",
-     "appName": "JSI App",
+     "appName": "思榕移动端",
      "webDir": "www",
      "server": {
        "url": "http://new-server-url.com",  // 修改这里
